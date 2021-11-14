@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="//writ.cmcenroe.me/1.0.4/writ.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
+    <style>
+      .center-fit {
+        max-width: 1000%;
+          margin: auto;
+          display: block;
+      }
+
+    	.markdown-body {
+    		box-sizing: border-box;
+    		min-width: 200px;
+    		max-width: 980px;
+    		margin: 0 auto;
+    		padding: 45px;
+    	}
+
+    	@media (max-width: 767px) {
+    		.markdown-body {
+    			padding: 15px;
+    		}
+    	}
+
+      .sidebar {
+      height: 100%;
+      width: 20%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: lightblue;
+      }
+
+      .sidebar li {
+        list-style-type: none;
+        margin-top: .8em;
+        margin-left: -15px;
+        font-style: bold
+      }
+
+      .sidebar ul {
+        font-style: normal;
+        font-weight: bold
+      }
+
+      .sidebar ul ul {
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      .sidebar ul ul ul {
+        font-style: italic;
+        font-weight: normal;
+      }
+
+      figure figcaption {
+        text-align: center;
+        font-style: italic;
+      }
+
+      hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+    }
+
+    a, a:visited {
+    color: blue;
+    }
+    </style>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

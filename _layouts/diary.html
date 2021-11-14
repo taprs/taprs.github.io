@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="sidebar">
+  {% include nav.html pages=site.html_pages %}
+  <hr/>
+  <span style="font-size: .8em; line-height: 1em">{% include toc.html html=content sanitize=true %}</span>
+</div>
+
+<div class="markdown-body" style="padding-left: 20%">
+  {{ content }}
+</div>
