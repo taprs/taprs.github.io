@@ -1,7 +1,6 @@
 ---
 title: "2021: Турция"
-categories: Blog
-tags: trips
+categories: trips
 ---
 
 # Горные коровы на тропе святого Павла
