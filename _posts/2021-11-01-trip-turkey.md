@@ -1,5 +1,4 @@
 ---
-layout: diary
 title: "2021: Турция"
 categories: trips
 ---

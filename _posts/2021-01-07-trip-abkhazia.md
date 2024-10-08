@@ -1,5 +1,4 @@
 ---
-layout: diary
 title: "2020/2021: Абхазия"
 categories: trips
 ---
