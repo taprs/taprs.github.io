@@ -1,6 +1,7 @@
 ---
 title: "2020/2021: Абхазия"
-categories: trips
+categories: Blog
+tags: trips
 ---
 
 # Чумкузбачество: прогулка в Абхазии на Новый год-2021
