@@ -62,15 +62,18 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Walk, botanize, code, do science"
   links:
-    - label: "Novikova lab"
-      icon: "fas fa-fw fa-link"
-      url: "https://novikovalab.org"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/nptikhomirov"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0003-1564-0265"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/taprs"
+    - label: "Novikova lab"
+      icon: "fas fa-fw fa-link"
+      url: "https://novikovalab.org"
 
 footer:
   links:
